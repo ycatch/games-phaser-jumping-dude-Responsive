@@ -11,8 +11,8 @@ My example is enchanced some points like ...
 
 * change rule of game and add time limit.
 * add Main menu.
-* use Basic project templates.
-* add sounds
+* use Fullscreen Scaling template by tjkopena.
+* add sounds.
 
 
 Tutorial
@@ -39,6 +39,7 @@ Copyright 2006 - 2014 Photon Storm Ltd. All rights reserved.
 Copyright 2014 Richard Davey, Photon Storm Ltd.
 
 http://www.photonstorm.com/phaser/tutorial-making-your-first-phaser-game
+
 
 Library
 -------

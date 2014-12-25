@@ -71,7 +71,8 @@ BasicGame.Game.prototype = {
 		ledge.body.immovable = true;
 
 		
-		// ** The score & leftTimme
+		// ** The score & leftTime
+		this.time.advancedTiming = true;
 		this._scoreText = this.add.text(16, 16, 'Score: 0', { fontSize: '28px', fill: '#FFF' });
 
 		this._timeCounter = 0;
@@ -170,6 +171,12 @@ BasicGame.Game.prototype = {
 		if(this._leftTime <= 0) {
 			this.quitGame();
 		}
+    },
+
+	render: function() {
+	
+        this.game.debug.text(this.game.time.fps + ' FPS', 16, 70, "#00ff00", "32px Courier"); 		
+ 
     },
 
     quitGame: function (pointer) {
